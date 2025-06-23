@@ -1,0 +1,7 @@
+services:Add commentMore actions
+  - type: web
+    name: uy
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    autoDeploy: true
